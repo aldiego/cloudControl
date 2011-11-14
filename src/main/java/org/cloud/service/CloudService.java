@@ -15,6 +15,10 @@ public class CloudService implements ICloudService{
 	@Autowired
 	ComputeService computeService;
 	
+	public CloudService(){
+		super();
+	}
+	
 	// API
 	
 	@Override
